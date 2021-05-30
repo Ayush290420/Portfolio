@@ -1,0 +1,90 @@
+body {
+    background-color: yellow;
+}
+
+#mainimg {
+    background-color: #00b4d8;
+    width: 100%;
+    height: 60vh;
+    background-image: url('https://images.unsplash.com/photo-1497864149936-d3163f0c0f4b?ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8c3RhdGlvbmVyeXxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* background-blend-mode: darken; */
+}
+
+#mainimg div {
+    color: whitesmoke;
+}
+
+#mainimg p {
+    color: white;
+}
+
+.bx {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 1px 0 #ccc, 0 2px 0 #161a1d, 0 3px 0 #bbb, 0 4px 0 #161a1d, 0 5px 0 #aaa, 0 6px 1px rgba(0, 0, 0, .1), 0 0 5px rgba(0, 0, 0, .1), 0 1px 3px rgba(0, 0, 0, .3), 0 3px 5px rgba(0, 0, 0, .2), 0 5px 10px rgba(0, 0, 0, .25), 0 10px 10px rgba(0, 0, 0, .2), 0 20px 20px rgba(0, 0, 0, .15);
+}
+
+.bx:hover {
+    transform: scale(1.05);
+}
+
+.bx h1 {
+    color: whitesmoke;
+    text-align: center;
+}
+
+#abtme {
+    background-color: #161a1d;
+    color: #eddcd2;
+}
+
+#abtme img {
+    height: 40vh;
+    width: 20vw;
+    border-radius: 20px;
+    border: 6px solid #00b4d8;
+}
+
+#abtme img:hover {
+    border: 6px solid yellow;
+}
+
+#edu {
+    color: #32d3f3;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('https://images.unsplash.com/photo-1481627834876-b7833e8f5570?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTB8fGVkdWNhdGlvbnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+
+#tech {
+    /* height: 40vh; */
+    color: #caf0f8;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fHRlY2h8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+
+#project {
+    text-align: center;
+    color: black;
+    background-blend-mode: darken;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url('https://images.unsplash.com/photo-1609516002833-e4ed4d6f1730?ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dGV4dHVyZSUyMGJhY2tncm91bmR8ZW58MHx8MHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60');
+}
+
+#project img {
+    margin: 0px auto;
+    height: 40vh;
+    width: 16.7vw;
+}
+
+#footer {
+    height: 10vh;
+    width: 100vw;
+    background-color: black;
+}
